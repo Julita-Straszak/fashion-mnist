@@ -39,11 +39,7 @@ Download the following repository from orginal Zalando Fashion_MNIST, it will be
 https://github.com/zalandoresearch/fashion-mnist
 ```
 
-Download the image to downloads, it will be accessed through downloads/fashion-mnist-sprite.png.
-
-```
-https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/doc/img/fashion-mnist-sprite.png
-```
+Image will be accessed through doc/img/fashion-mnist-sprite.png from the cloned repository. 
 
 
 ## License
