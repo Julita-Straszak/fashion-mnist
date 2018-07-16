@@ -13,7 +13,7 @@ The notebook will run in a Conda environment, as described below.
 At the terminal prompt, create a new conda environment:
 
 ```
-conda create -n julita python=3.6 numpy scipy scikit-learn numba jupyter matplotlib seaborn tensorflow
+conda create -n julita python=3.6 numpy scipy scikit-learn numba jupyter matplotlib seaborn tensorflow plotly pandas
 ```
 
 Activate that environment:
@@ -51,6 +51,11 @@ as four files *.gz, and the demonstration image will be:
 ```
 doc/img/fashion-mnist-sprite.png
 ```
+
+### Demonstration  notebook
+
+Please go to the Machine Learning Demonstation file to run the script and compare models.
+
 
 ## License
 
