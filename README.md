@@ -1,28 +1,31 @@
 # Machine learning demonstration notebook
 
-Demonstration of machine learning models trained on fashion_MNIST data set. First part of the notebook visuallises clusters through a dimention reduction - UMAP. 
+Demonstration of machine learning models trained on the Fashion-MNIST
+data set.  The first part of the notebook visualises clusters through
+a dimensionality reduction using UMAP. 
 
 ## Getting Started
 
-The notebook will run in conda environment through jupyter notebook.
+The notebook will run in a Conda environment, as described below.
 
-### Creating an environement
+### Creating the Conda environment
 
-This a command line you need to run to deploy the notebook: 
+At the terminal prompt, create a new conda environment:
 
 ```
 conda create -n julita python=3.6 numpy scipy scikit-learn numba jupyter matplotlib seaborn tensorflow
 ```
 
-And after that:
+Activate that environment:
 
 ```
 source activate julita
 ```
 
-### Installing
+### Additional package installs
 
-The following packages need installing through pip:
+The following additional packages need installing using pip, after
+activating the environment in the previous step:
 
 ```
 pip install xgboost
@@ -31,18 +34,24 @@ pip install umap-learn
 
 ### Data download 
 
-Fashion_MNIST data must be downloaded before running the notebook along with a fashion_MNIST demonstration image.
+Running the notebook requires both the Fashion\_MNIST data and the
+Fashion\_MNIST demonstration image.
 
-Download the following repository from orginal Zalando Fashion_MNIST, it will be accessed through GitHub/fashion-mnist/data/fashion.
+The original Fashion\_MNIST data can be obtained from the following repository: 
 
 ```
 https://github.com/zalandoresearch/fashion-mnist
 ```
 
-Image will be accessed through doc/img/fashion-mnist-sprite.png from the cloned repository. 
-
+The Fashion_MNIST data will then be in the subdirectory
+```
+data/fashion/
+```
+as four files *.gz, and the demonstration image will be:
+```
+doc/img/fashion-mnist-sprite.png
+```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
